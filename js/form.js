@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     div.innerHTML = JSON.stringify(obj);
 
     // eslint-disable-next-line no-sequences
-    fetch('https://kaminskayap.github.io/TeremInternship/data.json', {
+    fetch('/data.json', {
       method: 'POST',
       body: JSON.stringify(obj),
       headers: {
