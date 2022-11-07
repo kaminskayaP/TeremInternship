@@ -1,0 +1,15 @@
+.body__header.d-none {
+  display: none;
+}
+
+.input:not(:last-child)  {
+  margin-right: 20px;
+}
+
+.select:not(:last-child) {
+  margin-right: 20px;
+}
+
+.light-blue.clicked {
+  order: -1;
+}

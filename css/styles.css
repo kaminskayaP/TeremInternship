@@ -1,0 +1,33 @@
+.body__container{
+  padding: 20px;
+}
+
+.black-border {
+  border: 1px solid #000;
+}
+
+.black-border_dotted {
+  border-style: dotted;
+}
+
+.col-size {
+  height: 40px;
+}
+
+.body__btn-container {
+  padding: 10px;
+}
+
+.violet {
+  background-color: rgba(75, 4, 75, .5);
+}
+
+.light-blue {
+  background-color: rgba(104, 191, 221, .5);
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, .5);
+}
+
+
