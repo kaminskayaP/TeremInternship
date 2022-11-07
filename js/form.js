@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Content-type': 'application/json; charset=UTF-8',
       },
     }).then((response) => {
+      alert(response);
       if (!response.ok) {
         throw new Error('Error occurred!');
       }
